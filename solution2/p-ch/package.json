@@ -3,14 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/node-sass": "^4.11.1",
     "@types/prop-types": "^15.7.3",
+    "@types/react-router-dom": "^5.1.5",
     "axios": "^0.19.2",
     "immutable": "^4.0.0-rc.12",
     "material-table": "^1.67.1",
+    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-toastify": "^6.0.8",
     "react-toastify-redux": "^1.0.0-rc.2"

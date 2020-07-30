@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import CouncillorsPage from './pages/Councillors';
 import {Provider} from 'react-redux';
 import Store from './redux/store';
+import MainRouter from './routing/MainRouter';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
     <div className='main-container'>
       <Provider store={Store}>
-        <CouncillorsPage/>
+        <MainRouter/>
       </Provider>
     </div>
   );

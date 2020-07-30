@@ -1,0 +1,33 @@
+.navbar-container {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+
+    .position-left {
+        width: 50%;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 50px;
+    }
+    .position-right {
+        width: 50%;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 50px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav {
+        width: 100px;
+        padding: 10px;
+        .link {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
